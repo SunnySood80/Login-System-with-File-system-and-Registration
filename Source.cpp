@@ -4,6 +4,11 @@
 
 using namespace std;
 
+/**
+* takes in username and password and creates .txt file
+* checks if username and passwrod are match
+**/
+
 bool loggedIn()
 {
 	string username;
@@ -29,6 +34,10 @@ bool loggedIn()
 
 
 }
+
+/**
+* takes in username and password and creates .txt file
+**/
 
 int main()
 {
@@ -56,6 +65,12 @@ int main()
 
 		main();
 	}
+
+/**
+* checks if username and passwrod are valid, if so,
+* then continue on with file creation
+**/
+
 	else if (choice == 2)
 	{
 		bool status = loggedIn();
